@@ -28,9 +28,25 @@ class LongTestPencil(TestPencil):
 
     def test_when_sharpen_is_called_it_sets_the_current_tip_durability_variable_in_the_pencil_instance_to_max_tip_durability(self):
         self.assertEqual(self.pencil.current_tip_durability, 0)
+        self.assertEqual(self.pencil.current_length, 10)
 
         self.pencil.sharpen()
 
         self.assertEqual(self.pencil.current_tip_durability, 1000)
+        self.assertEqual(self.pencil.current_length, 9)
 
 
+class ShortTestPencil(TestPencil):
+    def setUp(self):
+        super(ShortTestPencil, self).setUp()
+        self.pencil.set_length(0)
+        self.pencil.set_max_tip_durability(1000)
+
+    def test_when_sharpen_is_called_when_there_is_no_length_left_to_sharpen_it_leaves_the_current_tip_durability_variable_in_the_pencil_instance_as_is(self):
+        self.assertEqual(self.pencil.current_tip_durability, 0)
+        self.assertEqual(self.pencil.current_length, 0)
+
+        self.pencil.sharpen()
+
+        self.assertEqual(self.pencil.current_tip_durability, 0)
+        self.assertEqual(self.pencil.current_length, 0)

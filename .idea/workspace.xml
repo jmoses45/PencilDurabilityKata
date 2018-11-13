@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f9f11fb-6d6c-4696-84d5-f7473dbacca9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pencil.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pencil.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_pencil.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_pencil.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,12 +31,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2125" />
+          <entry key="py" value="2262" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2125" />
+          <entry key="Python" value="2262" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -80,11 +79,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_pencil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="402">
+              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
-                <marker date="1542084871504" expanded="true" signature="740:819" ph="..." />
+                <marker date="1542086714686" expanded="true" signature="740:819" ph="..." />
+                <marker date="1542086714686" expanded="true" signature="1314:1464" ph="..." />
               </folding>
             </state>
           </provider>
@@ -174,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_paper.py">
+  <component name="RunManager" selected="Python tests.Unittests in test_pencil.py">
     <configuration name="pencil" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PencilDurabilityKata" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -261,8 +261,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in test_paper.py" />
         <item itemvalue="Python tests.Unittests in test_pencil.py" />
+        <item itemvalue="Python tests.Unittests in test_paper.py" />
         <item itemvalue="Python tests.Unittests in test_paper.py" />
         <item itemvalue="Python tests.Unittests for test_pencil.TestPencil" />
         <item itemvalue="Python.pencil" />
@@ -283,24 +283,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_paper_py - 2018.11.12 at 17h 19m 10s.xml">
-      <configuration name="Unittests in test_paper.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_paper_py_(1) - 2018.11.12 at 17h 19m 14s.xml">
-      <configuration name="Unittests in test_paper.py (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_paper_py - 2018.11.12 at 17h 19m 50s.xml">
-      <configuration name="Unittests in test_paper.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_paper_py - 2018.11.12 at 18h 40m 32s.xml">
-      <configuration name="Unittests in test_paper.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_pencil_py - 2018.11.12 at 22h 33m 52s.xml">
-      <configuration name="Unittests in test_pencil.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_pencil_py - 2018.11.12 at 22h 34m 20s.xml">
-      <configuration name="Unittests in test_pencil.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_pencil_py - 2018.11.12 at 22h 35m 01s.xml">
       <configuration name="Unittests in test_pencil.py" configurationId="tests" />
     </history-entry>
@@ -311,6 +293,24 @@
       <configuration name="Unittests in test_pencil.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_pencil_py - 2018.11.12 at 22h 51m 01s.xml">
+      <configuration name="Unittests in test_pencil.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_pencil_py - 2018.11.12 at 22h 54m 32s.xml">
+      <configuration name="Unittests in test_pencil.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_pencil_py - 2018.11.12 at 22h 55m 33s.xml">
+      <configuration name="Unittests in test_pencil.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_paper_py - 2018.11.12 at 22h 55m 39s.xml">
+      <configuration name="Unittests in test_paper.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_paper_py - 2018.11.12 at 23h 21m 39s.xml">
+      <configuration name="Unittests in test_paper.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_pencil_py - 2018.11.12 at 23h 21m 45s.xml">
+      <configuration name="Unittests in test_pencil.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_pencil_py - 2018.11.12 at 23h 24m 54s.xml">
       <configuration name="Unittests in test_pencil.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -379,11 +379,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_pencil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="402">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
-            <marker date="1542084871504" expanded="true" signature="740:819" ph="..." />
+            <marker date="1542086714686" expanded="true" signature="740:819" ph="..." />
+            <marker date="1542086714686" expanded="true" signature="1314:1464" ph="..." />
           </folding>
         </state>
       </provider>
