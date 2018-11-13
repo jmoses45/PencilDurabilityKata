@@ -1,7 +1,11 @@
 class Pencil:
 
     def __init__(self):
-        self.durability = 0
+        self.current_tip_durability = 0;
+        self.max_tip_durability = 0
 
-    def set_durability(self, amount):
-        self.durability = amount
+    def set_max_tip_durability(self, amount):
+        self.max_tip_durability = amount
+
+    def sharpen(self):
+        self.current_tip_durability = self.max_tip_durability;
