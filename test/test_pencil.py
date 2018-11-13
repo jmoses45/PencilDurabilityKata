@@ -95,3 +95,19 @@ class HighDurabilityTestPencil(TestPencil):
 
         self.assertEqual(paper.text, "This is a string to be written.")
         self.assertEqual(self.pencil.current_tip_durability, 974)
+
+    def test_when_pencil_write_at_is_passed_a_string_and_an_index_it_will_write_the_string_on_the_paper_at_that_index_on_white_space(self):
+        paper = Paper()
+        paper.text = "An       a day keeps the doctor away"
+
+        self.pencil.write_at(paper, "onion", 3)
+
+        self.assertEqual(paper.text, "An onion a day keeps the doctor away")
+
+    def test_when_pencil_write_at_is_passed_a_string_and_an_index_it_will_write_the_string_on_the_paper_at_that_index_and_overwrite_filled_spaces_with_symbol(self):
+        paper = Paper()
+        paper.text = "An       a day keeps the doctor away"
+
+        self.pencil.write_at(paper, "artichoke", 3)
+        
+        self.assertEqual(paper.text, "An artich@k@ay keeps the doctor away")

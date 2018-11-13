@@ -30,6 +30,12 @@ class Pencil:
             self.current_tip_durability = self.max_tip_durability
 
     def write(self, paper, text_to_write):
+        paper.write(self.get_written_text(text_to_write))
+
+    def write_at(self, paper, text_to_write, index):
+        paper.write_at(self.get_written_text(text_to_write), index)
+
+    def get_written_text(self, text_to_write):
         text = ""
 
         for c in text_to_write:
@@ -48,4 +54,4 @@ class Pencil:
             else:
                 text += " "
 
-        paper.write(text)
+        return text
