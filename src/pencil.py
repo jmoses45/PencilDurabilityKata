@@ -1,9 +1,15 @@
+from src.eraser import Eraser
+
+
 class Pencil:
 
     def __init__(self):
         self.current_length = 0
         self.current_tip_durability = 0
+        self.eraser = Eraser()
         self.max_tip_durability = 0
+
+        self.eraser.set_durability(0)
 
     def set_length(self, length):
         self.current_length = length
