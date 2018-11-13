@@ -111,3 +111,25 @@ class HighDurabilityTestPencil(TestPencil):
         self.pencil.write_at(paper, "artichoke", 3)
         
         self.assertEqual(paper.text, "An artich@k@ay keeps the doctor away")
+
+    def test_when_pencil_write_at_is_passed_a_string_and_an_index_less_than_zero_raises_index_error(self):
+        paper = Paper()
+        paper.text = "An apple a day keeps the doctor away"
+
+        self.assertRaises(IndexError, lambda: self.pencil.write_at(paper, "Remember, a", -10))
+
+    def test_when_pencil_write_at_is_passed_a_string_and_an_index_greater_than_paper_text_length_it_adds_text_to_end(self):
+        paper = Paper()
+        paper.text = "An apple a day keeps the doctor away"
+
+        self.pencil.write_at(paper, ", don't you know.", 40)
+
+        self.assertEqual(paper.text, "An apple a day keeps the doctor away, don't you know.")
+
+    def test_when_pencil_write_at_is_passed_a_string_and_an_index_that_is_in_bounds_but_string_len_plus_index_is_greater_than_paper_text_length_it_overwrites_and_addes_on(self):
+        paper = Paper()
+        paper.text = "An apple a day keeps the doctor away"
+
+        self.pencil.write_at(paper, "from coming around.", 32)
+
+        self.assertEqual(paper.text, "An apple a day keeps the doctor @@@@ coming around.")
