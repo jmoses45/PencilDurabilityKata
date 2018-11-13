@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f9f11fb-6d6c-4696-84d5-f7473dbacca9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pencil.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pencil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_eraser.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_eraser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_paper.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_paper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_pencil.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_pencil.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +31,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3594" />
+          <entry key="py" value="3644" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3594" />
+          <entry key="Python" value="3644" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -96,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_paper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="391">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -108,7 +105,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_pencil.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="470">
@@ -145,9 +142,9 @@
         <option value="$PROJECT_DIR$/src/test_paper.py" />
         <option value="$PROJECT_DIR$/src/eraser.py" />
         <option value="$PROJECT_DIR$/test/test_eraser.py" />
-        <option value="$PROJECT_DIR$/test/test_paper.py" />
         <option value="$PROJECT_DIR$/src/pencil.py" />
         <option value="$PROJECT_DIR$/test/test_pencil.py" />
+        <option value="$PROJECT_DIR$/test/test_paper.py" />
       </list>
     </option>
   </component>
@@ -218,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_pencil.py">
+  <component name="RunManager" selected="Python tests.Unittests in test_eraser.py">
     <configuration name="pencil" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PencilDurabilityKata" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -305,9 +302,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in test_pencil.py" />
-        <item itemvalue="Python tests.Unittests in test_paper.py" />
         <item itemvalue="Python tests.Unittests in test_eraser.py" />
+        <item itemvalue="Python tests.Unittests in test_paper.py" />
+        <item itemvalue="Python tests.Unittests in test_pencil.py" />
         <item itemvalue="Python tests.Unittests in test_paper.py" />
       </list>
     </recent_temporary>
@@ -326,15 +323,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_pencil_py - 2018.11.13 at 01h 56m 34s.xml">
-      <configuration name="Unittests in test_pencil.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_pencil_py - 2018.11.13 at 01h 56m 35s.xml">
-      <configuration name="Unittests in test_pencil.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_pencil_py - 2018.11.13 at 01h 56m 59s.xml">
-      <configuration name="Unittests in test_pencil.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_pencil_py - 2018.11.13 at 01h 57m 20s.xml">
       <configuration name="Unittests in test_pencil.py" configurationId="tests" />
     </history-entry>
@@ -355,6 +343,15 @@
     </history-entry>
     <history-entry file="Unittests_in_test_pencil_py - 2018.11.13 at 02h 01m 09s.xml">
       <configuration name="Unittests in test_pencil.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_pencil_py - 2018.11.13 at 02h 04m 46s.xml">
+      <configuration name="Unittests in test_pencil.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_paper_py - 2018.11.13 at 02h 04m 50s.xml">
+      <configuration name="Unittests in test_paper.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_eraser_py - 2018.11.13 at 02h 04m 56s.xml">
+      <configuration name="Unittests in test_eraser.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -394,16 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_eraser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <marker date="1542095371743" expanded="true" signature="81:336" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/eraser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -436,16 +423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_paper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pencil.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -455,6 +432,16 @@
             <marker date="1542095891986" expanded="true" signature="163:164" ph="..." />
             <marker date="1542095891986" expanded="true" signature="163:169" ph="..." />
             <marker date="1542095891986" expanded="true" signature="401:444" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_eraser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <marker date="1542095371743" expanded="true" signature="81:336" ph="..." />
           </folding>
         </state>
       </provider>
@@ -471,6 +458,16 @@
             <element signature="e#1604#1871#0" />
             <marker date="1542096069735" expanded="false" signature="771:850" ph="..." />
             <marker date="1542096069735" expanded="true" signature="1346:1496" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_paper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
